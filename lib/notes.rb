@@ -4,7 +4,15 @@ notes = []
 def Notes
   def add(title, message) 
    @notes[:"#{title}"] = message
-  end 
+  end
+  
+  def delete
+      
+  end
+
+  def list
+   puts @notes
+  end
 end
 
 puts "What is the title of your note?"
